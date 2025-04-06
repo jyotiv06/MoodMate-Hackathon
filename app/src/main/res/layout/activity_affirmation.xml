@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC324"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Positive Affirmations for your Calm and Peaceful Mind!"
+            android:textSize="23dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You are stronger than you think."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp"
+            android:elevation="4dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#FFFFFF"
+            android:backgroundTintMode="src_in"
+            android:background="@drawable/statement_bg" />
+
+        <!-- Repeat for more statements -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="It’s okay to take a break."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp"
+            android:elevation="4dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:background="@drawable/statement_bg" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Every day is a fresh start."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp"
+            android:elevation="4dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:background="@drawable/statement_bg" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I am worthy of love and respect."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp"
+            android:elevation="4dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:background="@drawable/statement_bg" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I choose peace over perfection."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp"
+            android:elevation="4dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:background="@drawable/statement_bg" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My mind is calm, and my body is relaxed."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp"
+            android:elevation="4dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:background="@drawable/statement_bg" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="It’s okay to not be okay sometimes."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp"
+            android:elevation="4dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:background="@drawable/statement_bg" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I believe in myself and my abilities."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp"
+            android:elevation="4dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:background="@drawable/statement_bg" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I deserve happiness and good things."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp"
+            android:elevation="4dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:background="@drawable/statement_bg" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I trust the timing of my life."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp"
+            android:elevation="4dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:background="@drawable/statement_bg" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Every breath I take fills me with peace."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp"
+            android:elevation="4dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:background="@drawable/statement_bg" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I let go of what I can’t control."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp"
+            android:elevation="4dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:background="@drawable/statement_bg" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,7 @@
+<resources>
+    <style name="NoTint" parent="">
+        <item name="colorButtonNormal">#FFA000</item>
+        <item name="android:colorButtonNormal">#FFA000</item>
+        <item name="colorControlHighlight">#00000000</item> <!-- disables ripple tint -->
+    </style>
+</resources>

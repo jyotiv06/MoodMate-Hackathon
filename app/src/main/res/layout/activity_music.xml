@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <!-- Main title centered -->
+    <TextView
+        android:id="@+id/sampleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calm Music for Peaceful Mind"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp" />
+
+    <!-- Message 1 -->
+    <TextView
+        android:id="@+id/m1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="@string/m1"
+        android:layout_below="@id/sampleText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:linksClickable="true"/>
+
+    <!-- Message 2 -->
+    <TextView
+        android:id="@+id/m2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="@string/m2"
+        android:layout_below="@id/m1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:linksClickable="true"/>
+
+    <!-- Message 3 -->
+    <TextView
+        android:id="@+id/m3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="@string/m3"
+        android:layout_below="@id/m2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:linksClickable="true"/>
+
+    <!-- Message 4 -->
+    <TextView
+        android:id="@+id/m4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="@string/m4"
+        android:layout_below="@id/m3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:linksClickable="true"/>
+</RelativeLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFB300">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="24sp">
+
+            <!-- Rounded container -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16sp"
+                android:background="@drawable/rounded_container_bg"
+                android:orientation="vertical"
+                android:padding="24sp">
+
+                <!-- Title -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4sp"
+                    android:gravity="center"
+                    android:text="Log In"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <!-- Subtitle -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16sp"
+                    android:gravity="center"
+                    android:text="@string/welcome"
+                    android:textColor="#444444"
+                    android:textSize="14sp" />
+
+                <!-- Email -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8sp"
+                    android:text="Email"
+                    android:textColor="#000000"
+                    android:textSize="17sp" />
+
+                <EditText
+                    android:id="@+id/textEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="48sp"
+                    android:layout_marginBottom="12sp"
+                    android:background="@drawable/edittext_background"
+                    android:inputType="textEmailAddress"
+                    android:paddingStart="12sp" />
+
+                <!-- Password -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Password"
+                    android:textColor="#000000"
+                    android:textSize="17sp" />
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="48sp"
+                    android:layout_marginBottom="8sp"
+                    android:background="@drawable/edittext_background"
+                    android:inputType="textPassword"
+                    android:paddingStart="12sp" />
+
+                <!-- Log In Button -->
+                <Button
+                    android:id="@+id/loginb"
+                    android:layout_width="match_parent"
+                    android:layout_height="48sp"
+                    android:layout_marginBottom="16sp"
+                    android:backgroundTint="#FFB300"
+                    android:text="Log In"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
